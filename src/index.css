@@ -8,6 +8,45 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+nav {
+  background: #e4d00a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  box-shadow: 2px 2px 4px grey;
+  margin-bottom: 1em;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+table {
+  width: 50%;
+  margin: auto;
+}
+
+tr {
+  border-bottom: solid 2px #00A36C;
+}
+
+
+.backEditDelete {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+}
+
+.Edit form {
+  margin: auto;
+  width: 95%;
+}
+
+.Edit form label{
+  margin: auto;
+  width: 95%;
 }
